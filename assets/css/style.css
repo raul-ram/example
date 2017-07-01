@@ -1,23 +1,32 @@
 body{
-    padding: 20px;
     background-color: #F6EC72;
 }
 header{
-    height: 80px;
     background-color: #1684A7;
     padding: 10px;
+}
+
+#logo img{
+    width: 150px;
+    float: left;
+    margin: 5px;
+}
+#menu{
+    margin-top: 10px;
+    background-color: rgba(255, 0, 0, 0.3)
 }
 nav ul {
     display: inline-block;
     display: flex;
-	  list-style: none;
-  }
+	list-style: none;
+}
 
 nav ul li{
     list-style: none;
 }
 nav ul li a{
     display: block;
+    color: white;
     display: inline-block;
     text-decoration: none;
     padding: 14px;
@@ -29,11 +38,20 @@ nav ul li a:hover{
 }
 section{
     background-color: #09A599;
-    padding: 10px;
+    padding: 40px;
     border-radius: 20px 20px 20px 20px;
     margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
+spam{
+    color: #F6EC72;
+}
+em{
+    color: red;
+}
+/*estilo para el pie de pagina*/
 footer{
     background-color: #1684A7;
     border-radius: 20px 20px 20px 20px;
